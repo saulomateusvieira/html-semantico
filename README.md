@@ -7,6 +7,7 @@ Teste do *Itálico*
 [exemplo](https://google.com/)
 
 <https://google.com/>
+git commit -m "Excluindo uma linha"
 
 * Arroz japonês
 * Nori
@@ -48,4 +49,5 @@ Frutas | Doces
 :--:|:--:
 Melão | Donuts
 Maça | Chocolate
+Pera | Abacate
 ![Cachorrinho](https://pipz.com/static/images/blog/eddie.png) | ![Cachorrinho](https://pipz.com/static/images/blog/eddie.png)
