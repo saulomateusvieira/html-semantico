@@ -1,7 +1,7 @@
 # html-semantico
 ### Dando significado à estruturas
 Teste do **negrito**
-
+ 
 Teste do *Itálico*
 
 [exemplo](https://google.com/)
