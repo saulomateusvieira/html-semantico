@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background: #cee1d8;
+	margin: 20px 50px;
+	text-align: justify;
 	line-height: 1;
 }
 ol, ul {
@@ -53,12 +56,59 @@ color: initial;
 cursor: initial;
 }
 
-aside {
-    background-color: none;
-}
-h1 {
-    color:saddlebrown;
+.titulo-de-pagina {
+    color:#260729;
     line-height: 2;
     font-weight: bold;
-    font-size: 23pt;
+    font-size: 22pt;
     }
+
+.titulo-de-artigo {
+	color: #2a2344;
+	text: color #2a2344;
+	line-height: 2;
+	font-weight: bold;
+	font-size: 18pt;
+	}
+	
+.titulo-de-secao {
+	color: #495168;
+	line-height: 1.8;
+	font-size: 18pt;
+	font-weight:bold;
+}
+
+.subtitulo-de-artigo {
+	color: #0f4571;
+	line-height: 1.5;
+	font-size: 14pt;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+p {
+ line-height: 1.2;
+ color: #3f3f3f;
+ font-family: Arial, Helvetica;
+
+}
+
+pre {
+	color:  #3f3f3f
+	font-family: Arial, Helvetica;
+}
+
+.paragrafo-de-artigo {
+	background-color:  #cedbd5;
+	padding: 20px 20px 0 20px;
+
+}
+
+article {
+	border: 8px solid #cedbd5;
+	padding: 30px;
+	margin: 30px, 0;
+	border-radius: 20px 0 20px 0;
+}
