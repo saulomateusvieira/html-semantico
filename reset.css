@@ -105,8 +105,8 @@ pre {
 	padding: 20px;
 }
 
-.paragrafo-de-artigo + .paragrafo-de-artigo {
-	padding-top: 10;
+.p > .paragrafo-de-artigo {
+	padding-top: 0;
 }
 
 article {
@@ -117,18 +117,18 @@ article {
 	border-radius: 20px 20px 20px 20px;
 }
 
-/* img {
+ img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	filter: gray; /* IE */
+	filter: #706a6a; /* IE */ }
   
 
   :root {
-	--cor-primaria: #454545;
+	--cor-primaria: #2b2b2b;
 	--cor-secundaria: #706a6a;
-	--cor-terciaria: #FFA559;
-	--cor-quartenaria: #ffad7a;
-	--cor-fundo: #FFE6C7;
+	--cor-terciaria: #f3f3d4;
+	--cor-quartenaria: #f4f442;
+	--cor-fundo: #ecece4;
   }
 
   
