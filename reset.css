@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background: #cee1d8;
+	background-color: var(--cor-fundo);
 	margin: 20px 50px;
 	text-align: justify;
 	line-height: 1;
@@ -57,15 +57,15 @@ cursor: initial;
 }
 
 .titulo-de-pagina {
-    color:#260729;
+    color: var(--cor-primaria);
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
     }
 
 .titulo-de-artigo {
-	color: #2a2344;
-	text: color #2a2344;
+	color: var(--cor-primaria);
+	text: color var(--cor-primaria) ;
 	line-height: 2;
 	font-weight: bold;
 	font-size: 18pt;
@@ -101,14 +101,34 @@ pre {
 }
 
 .paragrafo-de-artigo {
-	background-color:  #cedbd5;
+	background-color:  var(--cor-primaria);
 	padding: 20px 20px 0 20px;
 
 }
 
 article {
-	border: 8px solid #cedbd5;
+	
+	border: 8px solid var(--cor-quartenaria);
 	padding: 30px;
 	margin: 30px, 0;
-	border-radius: 20px 0 20px 0;
+	border-radius: 20px 20px 20px 20px;
 }
+
+/* img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+  
+
+  :root {
+	--cor-primaria: #454545;
+	--cor-secundaria: #706a6a;
+	--cor-terciaria: #FFA559;
+	--cor-quartenaria: #FF6000;
+	--cor-fundo: #FFE6C7;
+  }
+
+  
+  html {
+
+  }
