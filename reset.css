@@ -100,18 +100,35 @@ pre {
 	font-family: Arial, Helvetica;
 }
 
-.paragrafo-de-artigo {
-	background-color: var(--cor-quartenaria);
-	padding: 20px;
+.paragrafo-de-artigo:first-of-type{
+	padding-top: 20;
+	border-radius: 20px 0 0 0;
+	
 }
 
-.p > .paragrafo-de-artigo {
+.paragrafo-de-artigo:last-of-type{
+	padding-top: 20;
+	border-radius: 0 0 20px 0;
+}
+
+.paragrafo-de-artigo:only-of-type{
+	padding-top: 20;
+	border-radius: 20px 0 20px 0;
+}
+
+.paragrafo-de-artigo {
+	background-color: var(--cor-quartenaria) ;
+	padding: 20px;
+	
+
+}
+p + .paragrafo-de-artigo {
 	padding-top: 0;
 }
 
 article {
 	
-	border: 8px solid var(--cor-quartenaria);
+	border: 2px solid var(--cor-quartenaria);
 	padding: 20px;
 	margin: 30px, 0;
 	border-radius: 20px 20px 20px 20px;
